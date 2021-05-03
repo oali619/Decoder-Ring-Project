@@ -1,6 +1,6 @@
-#Project-Decoder-Ring
+# Project-Decoder-Ring
 
-##Three methods of encoding/decoding a message
+## Three methods of encoding/decoding a message
     - Caesar
         - shifts the input by the amount indicated to encode a message
     - Polybius
