@@ -12,13 +12,11 @@ describe("invalid alphabet value", () => {
     expect(actual).to.be.false;
   });
   it("should return false if alphabet value does not contain unique characters", () => {
-    const expected = false;
     const actual = substitution(
       "Encode this message",
       "aaaaaaaaaaaaaaaaaaaaaaaaaa"
     );
-
-    expect(actual).to.eql(expected);
+    expect(actual).to.be.false;
   });
 });
 
