@@ -31,13 +31,11 @@ const substitutionModule = (function () {
   function substitution(input, alphabet, encode = true) {
     // sanity check
     if (!alphabet || alphabet.length !== 26) return false;
-    console.log("hi");
 
     // check for duplicates
     const sub = Array.from(alphabet);
     const duplicates = new Set(sub);
     if (sub.length !== duplicates.size) return false;
-    console.log("bye");
 
     // define variables
     input = input.toLowerCase();
